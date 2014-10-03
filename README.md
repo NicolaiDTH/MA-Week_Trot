@@ -11,8 +11,11 @@ Another RSPEC run program. Go into the relevant directory via the console and ty
 Lessons Learned:
 --
 * Once again, calling data from a CSV file.
-* 
+* More array play! Splitting, joining, flattening, sampling and so on!
+* TDD used to help solve various issues.
+* Pairing with Sasha to make this!
 
 Problems With The Code:
 --
-
+* Problem with naming the files still, kept the title of 'Anagram'. Possibly confusing.
+* Last two tests unable to be made to pass, random math problems maybe?

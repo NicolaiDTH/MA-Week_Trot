@@ -12,7 +12,7 @@ def print_menu
 	puts "created by Sasha & Nicolai"
 	puts "--------------------------------------"
 	puts "A. Landing Trajectory"
-	puts "B. Fak off"
+	puts "B. Exit"
 	puts "______________________________________"
 end
 
@@ -30,13 +30,13 @@ def countries
 end
 
 def origin_continent(country)
-	CSV.foreach("continents.csv") do |row|
+	CSV.foreach('continents.csv') do |row|
 		return row[0] if row.include?(" #{country}")
 	end
 end
 
 def chosen_country
-	CSV.foreach("../continents.csv") do |row|
+	CSV.foreach('continents.csv') do |row|
 		row.delete_at(0)
 		countries << row.join(",").split(",")
 	end
@@ -44,7 +44,7 @@ def chosen_country
 end
 
 def pick_country
-	countries.sample.chomp
+	countries.sample.strip
 end
 
 def touchdown(destination)
@@ -56,5 +56,5 @@ def touchdown(destination)
 	end
 end
 
-# interactive_menu
-# chosen_country
+chosen_country
+interactive_menu

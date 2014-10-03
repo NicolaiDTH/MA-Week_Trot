@@ -30,7 +30,7 @@ def countries
 end
 
 def origin_continent(country)
-	CSV.foreach("../continents.csv") do |row|
+	CSV.foreach("continents.csv") do |row|
 		return row[0] if row.include?(" #{country}")
 	end
 end
@@ -44,7 +44,7 @@ def chosen_country
 end
 
 def pick_country
-	countries.sample.strip
+	countries.sample.chomp
 end
 
 def touchdown(destination)
@@ -56,5 +56,5 @@ def touchdown(destination)
 	end
 end
 
-chosen_country
-interactive_menu
+# interactive_menu
+# chosen_country

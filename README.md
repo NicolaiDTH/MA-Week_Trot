@@ -1,4 +1,4 @@
-![Spinning Globe](http://upload.wikimedia.org/wikipedia/commons/6/6b/Rotating_globe.gif)
+![Spinning Globe](http://www.csudh.edu/fisher/tbe540/spinning_globe.gif)
 
 TROT: The Splashdown Simulator
 --

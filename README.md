@@ -1,6 +1,6 @@
 ![Spinning Globe](http://www.csudh.edu/fisher/tbe540/spinning_globe.gif)
 
-TROT: The Splashdown Simulator
+Maker's Academy - TROT: The Splashdown Simulator
 --
 A program that choses a random destination on our planet for you, weary traveller, to land your craft! Comes complete with nation of impact and the continent it is on!
 

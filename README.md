@@ -1,3 +1,5 @@
+![MAlogo!](http://www.makersacademy.com/images/logo.png)
+
 ![Spinning Globe](http://www.csudh.edu/fisher/tbe540/spinning_globe.gif)
 
 Maker's Academy - TROT: The Splashdown Simulator
